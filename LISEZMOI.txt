@@ -1,0 +1,10 @@
+PROJET COMPLET - Hitihaunui (APK via GitHub)
+
+1. Dézippe ce fichier.
+2. github.com > New repository > Create repository > "uploading an existing file".
+3. Glisse TOUT le contenu (dossiers app et .github, build.gradle, settings.gradle, gradle.properties...). Commit changes.
+4. Si le dossier .github n'a pas été envoyé : Add file > Create new file, nom = .github/workflows/build.yml, colle le contenu du fichier "build.yml.A-COPIER-DANS-.github-workflows". Commit.
+5. Onglet Actions > attends la coche verte de "Build APK" (3-5 min).
+6. Ouvre l'exécution > Artifacts > Hitihaunui-APK > télécharge, dézippe > app-debug.apk > installe sur le téléphone.
+
+Mettre à jour l'appli : remplace app/src/main/assets/index.html.
